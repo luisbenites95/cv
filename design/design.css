@@ -12,8 +12,11 @@ body { margin : 0; }
     width : 20%;
     text-align: justify;
     background-color: #FFB300;
-    color : #616161;
+    color : #030303;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .corps {
 
@@ -49,7 +52,6 @@ body { margin : 0; }
      padding-right : 40px;
  }
 
- #loisir { vertical-align: bottom; }
 
 
 #Luis {
