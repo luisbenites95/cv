@@ -1,16 +1,17 @@
-.presentation , .corps {
-    display : inline-block;
-    vertical-align: top;
+body { margin : 0; }
+
+.site_entier {
+    display : flex;
 }
+
+
 
 
 .presentation {
 
     width : 20%;
-    min-height : 100%;
     text-align: justify;
     background-color: #FFB300;
-    height : 100%;
     color : #616161;
 }
 
