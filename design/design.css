@@ -1,0 +1,101 @@
+.presentation , .corps {
+    display : inline-block;
+    vertical-align: top;
+}
+
+
+.presentation {
+
+    width : 20%;
+    min-height : 100%;
+    text-align: justify;
+    background-color: #FFB300;
+    height : 100%;
+    color : #616161;
+}
+
+.corps {
+
+    width : 50%;
+    padding-left : 50px; 
+}
+
+#photo_luis {
+    display: inline-block;
+    width : 120px;
+    height : 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left : 100px;
+    margin-top : 20px;
+    margin-bottom : 50px;
+}
+
+.presentation h1 {
+    text-align: center;
+    background-color: #616161;
+    color : #FFB300;
+}
+
+.presentation ul { list-style-type: none; }
+.presentation a { 
+    color : #616161;
+    text-decoration: none;
+ }
+
+ .presentation p {
+     padding-left : 40px;
+     padding-right : 40px;
+ }
+
+ #loisir { vertical-align: bottom; }
+
+
+#Luis {
+    color : #FFB300;
+}
+
+h1 img { 
+    margin-right : 20px; }
+
+
+#titre_souligne {
+    text-decoration: underline;
+    text-decoration-color: #FFB300;
+}
+
+header { margin-bottom : 130px; }
+
+header h1 {
+    font-size : 70px; 
+    margin-bottom : 0;
+    margin-top : 20px;
+}
+
+header h2 { margin-top : 2px; }
+
+.formation span , .experience_pro span {
+    display : inline-block;
+    vertical-align: top;
+    width : 200px;
+}
+
+
+.formation aside , .experience_pro aside {
+    display: inline-block;
+    width : 70%; }
+
+
+.recommandation_1 , .recommandation_2 {
+    display: inline-block;
+}
+
+.recommandation_1 {
+    margin-right : 50%; 
+}
+
+.transition {
+    height : 2px;
+    background-color : #FFB300;
+    margin-bottom: 20px;
+ }
