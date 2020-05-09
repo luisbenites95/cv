@@ -132,10 +132,67 @@ header h1 {
  }
 
 
+/* Responsive Design : Tablette et petit ecran ordinateur */
 
- @media all and (max-width : 700px)
+    @media all and (max-width : 1400px)
+    {
+        .titre {  background-color: #FFB300; }
+
+        .titre h1 { color : #616161; }
+        
+        .site_entier {flex-direction: column-reverse;  }
+
+        .presentation { 
+            flex-direction: row;
+            border-top : 1px solid #616161;
+            flex-wrap: wrap;
+            justify-content: space-around; }
+
+        #contact { order : 1;}
+
+        #loisir { 
+            margin-top: 0; 
+            width : 50%;
+            order : 4;  }
+
+
+        #a_propos { width : 60%; order: 2;}
+
+        #photo_luis { order : 3; align-self: flex-start;}
+
+
+        .presentation, .formation aside , .experience_pro aside, .formation ul , .experience_pro ul { width : 100%;}
+
+        .corps { width : 90%;  padding-left: 10px; }
+
+        h2 { text-align: center;}
+
+        header h2 { text-align: left;}
+         
+        h3 { text-decoration: underline; color : #FFB300;  }
+
+        .recommandation_1 { margin-right: 10%; }
+
+    }
+
+
+/* Responsive Design : Smartphone */
+
+    @media all and (max-width : 700px)
     {
         .site_entier {flex-direction: column;  }
+
+        .titre { background-color: #616161;}
+        .titre h1 { color: #FFB300;}
+
+        .presentation {
+        flex-direction: column;
+        border-top : none;}
+
+        #photo_luis { order : 1; align-self: center;}
+        #contact { order : 2;}
+        #a_propos { order : 3; width: 100%;}
+        #loisir { order : 4; width: 100%;}
 
         .presentation, .formation aside , .experience_pro aside, .formation ul , .experience_pro ul { width : 100%;}
 
@@ -144,7 +201,7 @@ header h1 {
         h2 { text-align: center;}
 
         header h2 { text-align: left;}
-        
+         
         h3 { text-decoration: underline; color : #FFB300;  }
 
     }
