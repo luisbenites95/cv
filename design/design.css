@@ -17,18 +17,29 @@ body { margin : 0; }
     flex-direction: column;
 }
 
+
+
 #photo_luis {
     align-self: center;
     width : 200px;
     height : 200px;
     overflow: hidden;
     border-radius: 50%;
+
 }
 
+.corps , #photo_luis {margin-top: 50px;}
+
 .presentation h1 {
-    text-align: center;
+    
     background-color: #616161;
     color : #FFB300;
+    height : 50px;
+}
+
+h1 p {
+    text-align : center;
+    padding-top : 7px;
 }
 
 .presentation ul { list-style-type: none; }
@@ -47,8 +58,15 @@ body { margin : 0; }
     text-align: center;
 }
 
+#loisir , .recommandation {
+    margin-bottom: 30px;
+}
+
 #loisir img {
     margin-right : 20px;
+    border-radius: 100%;
+    border: 1px solid #616161;
+    padding : 10px;
 }
 
 .corps {
@@ -93,6 +111,7 @@ header h2 { margin-top : 2px; }
 .formation aside , .experience_pro aside {
     display: inline-block;
     width : 70%; }
+
 
 
 .recommandation_1 , .recommandation_2 {
