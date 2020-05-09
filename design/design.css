@@ -10,7 +10,7 @@ body { margin : 0; }
 
 .presentation a , .corps { color : #616161; }
 
-.corps , #photo_luis {margin-top: 50px;}   /* Marge du haut */
+.corps , #photo_luis {margin-top: 30px;}   /* Marge du haut */
 
 #loisir , .recommandation { margin-bottom: 30px; }  /* Marge du bas */
 
@@ -26,6 +26,7 @@ body { margin : 0; }
     text-align: justify;
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -129,3 +130,21 @@ header h1 {
     height : 2px;
     margin-bottom: 20px;
  }
+
+
+
+ @media screen and (max-width : 700px)
+    {
+        .site_entier {flex-direction: column;  }
+
+        .presentation, .formation aside , .experience_pro aside, .formation ul , .experience_pro ul { width : 100%;}
+
+        .corps { width : 80%;  padding-left: 10px; }
+
+        h2 { text-align: center;}
+
+        header h2 { text-align: left;}
+        
+        h3 { text-decoration: underline; color : #FFB300;  }
+
+    }
