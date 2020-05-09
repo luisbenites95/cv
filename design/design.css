@@ -76,9 +76,7 @@ h1 p {
 }
 
 
-#Luis {
-    color : #FFB300;
-}
+#Luis { color : #FFB300; }
 
 h1 img { 
     margin-right : 20px; }
@@ -107,11 +105,24 @@ header h1 {
 header h2 { margin-top : 2px; }
 
 
-.formation span , .experience_pro span {
+
+
+.formation ul , .experience_pro ul {
     display : inline-block;
     vertical-align: top;
     width : 200px;
+
 }
+
+.formation_graphic_designer ul , .exp_graphic_designer ul { list-style-type: none;}
+
+.formation_graphic_designer ul  li::before , .exp_graphic_designer ul  li::before {
+    content: "\2022";
+    margin-right: 10px;
+    color : #FFB300; }
+
+
+.premier { list-style-image: url("circle.svg"); }
 
 
 .formation aside , .experience_pro aside {
