@@ -43,6 +43,8 @@ h1 p {
 }
 
 .presentation ul { list-style-type: none; }
+
+.presentation li { margin-bottom : 20px;}
 .presentation a { 
     color : #616161;
     text-decoration: none;
