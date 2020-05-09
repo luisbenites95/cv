@@ -17,22 +17,12 @@ body { margin : 0; }
     flex-direction: column;
 }
 
-
-.corps {
-
-    width : 50%;
-    padding-left : 50px; 
-}
-
 #photo_luis {
-    display: inline-block;
-    width : 120px;
-    height : 120px;
+    align-self: center;
+    width : 200px;
+    height : 200px;
     overflow: hidden;
     border-radius: 50%;
-    margin-left : 100px;
-    margin-top : 20px;
-    margin-bottom : 50px;
 }
 
 .presentation h1 {
@@ -52,6 +42,20 @@ body { margin : 0; }
      padding-right : 40px;
  }
 
+#loisir {
+    margin-top: auto;
+    text-align: center;
+}
+
+#loisir img {
+    margin-right : 20px;
+}
+
+.corps {
+
+    width : 50%;
+    padding-left : 50px; 
+}
 
 
 #Luis {
@@ -59,7 +63,9 @@ body { margin : 0; }
 }
 
 h1 img { 
-    margin-right : 20px; }
+    margin-right : 20px;
+    fill: aqua; }
+
 
 
 #titre_souligne {
