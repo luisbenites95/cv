@@ -81,8 +81,10 @@ h1 p {
 }
 
 h1 img { 
-    margin-right : 20px;
-    fill: aqua; }
+    margin-right : 20px; }
+
+aside , .recommandation_1 , .recommandation_2 , header {
+    color : #616161; }
 
 
 
@@ -91,7 +93,10 @@ h1 img {
     text-decoration-color: #FFB300;
 }
 
-header { margin-bottom : 130px; }
+header { 
+    margin-bottom : 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
 
 header h1 {
     font-size : 70px; 
@@ -100,6 +105,7 @@ header h1 {
 }
 
 header h2 { margin-top : 2px; }
+
 
 .formation span , .experience_pro span {
     display : inline-block;
