@@ -1,22 +1,32 @@
 body { margin : 0; }
 
-.site_entier {
-    display : flex;
-}
+.site_entier { display : flex; }
+
+.presentation h1 , #Luis , .formation_graphic_designer ul  li::before , .exp_graphic_designer ul  li::before { color : #FFB300; } 
+
+.presentation , .transition { background-color: #FFB300;}
+
+.corps h2 , .presentation { color : black; }
+
+.presentation a , .corps { color : #616161; }
+
+.corps , #photo_luis {margin-top: 50px;}   /* Marge du haut */
+
+#loisir , .recommandation { margin-bottom: 30px; }  /* Marge du bas */
+
+.formation aside , .experience_pro aside , .recommandation_1 , .recommandation_2 , .formation ul , .experience_pro ul { display : inline-block; }
 
 
 
+/* Partie Presentation (partie gauche) */
 
 .presentation {
 
     width : 20%;
     text-align: justify;
-    background-color: #FFB300;
-    color : #030303;
     display: flex;
     flex-direction: column;
 }
-
 
 
 #photo_luis {
@@ -28,27 +38,22 @@ body { margin : 0; }
 
 }
 
-.corps , #photo_luis {margin-top: 50px;}
-
-.presentation h1 {
-    
-    background-color: #616161;
-    color : #FFB300;
+.titre {
     height : 50px;
+    background-color: #616161;
 }
 
-h1 p {
+.titre h1 {
     text-align : center;
     padding-top : 7px;
 }
 
+
 .presentation ul { list-style-type: none; }
 
 .presentation li { margin-bottom : 20px;}
-.presentation a { 
-    color : #616161;
-    text-decoration: none;
- }
+
+.presentation a {  text-decoration: none; }
 
  .presentation p {
      padding-left : 40px;
@@ -60,32 +65,25 @@ h1 p {
     text-align: center;
 }
 
-#loisir , .recommandation {
-    margin-bottom: 30px;
-}
 
 #loisir img {
+    margin-top : 10px; 
     margin-right : 20px;
     border-radius: 100%;
     border: 1px solid #616161;
-    padding : 10px;
+    padding : 5px;
 }
+
+
+/* Partie Corps du site (partie droite) */
 
 .corps {
-
     width : 50%;
-    padding-left : 50px; 
-}
+    padding-left : 50px;  }
 
 
-#Luis { color : #FFB300; }
 
-h1 img { 
-    margin-right : 20px; }
-
-aside , .recommandation_1 , .recommandation_2 , header {
-    color : #616161; }
-
+h2 img {  margin-right : 20px; }
 
 
 #titre_souligne {
@@ -94,25 +92,19 @@ aside , .recommandation_1 , .recommandation_2 , header {
 }
 
 header { 
-    margin-bottom : 130px;
+    margin-bottom : 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
 header h1 {
     font-size : 70px; 
-    margin-bottom : 0;
-    margin-top : 20px;
-}
-
-header h2 { margin-top : 2px; }
-
+    margin-bottom : 0px; }
 
 
 
 .formation ul , .experience_pro ul {
-    display : inline-block;
     vertical-align: top;
-    width : 220px;
+    width : 25%;
 
 }
 
@@ -120,29 +112,20 @@ header h2 { margin-top : 2px; }
 
 .formation_graphic_designer ul  li::before , .exp_graphic_designer ul  li::before {
     content: "\2022";
-    margin-right: 10px;
-    color : #FFB300; }
+    margin-right: 10px; }
 
 
 .premier { list-style-image: url("circle.svg"); }
 
 
 .formation aside , .experience_pro aside {
-    display: inline-block;
-    width : 70%; }
+    width : 70%;
+    text-align: justify; }
 
 
-
-.recommandation_1 , .recommandation_2 {
-    display: inline-block;
-}
-
-.recommandation_1 {
-    margin-right : 50%; 
-}
+.recommandation_1 { margin-right : 50%;  }
 
 .transition {
     height : 2px;
-    background-color : #FFB300;
     margin-bottom: 20px;
  }
