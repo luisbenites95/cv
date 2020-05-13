@@ -3,13 +3,13 @@
 body { margin : 0; display: flex; background-color: aliceblue;}
 
 
-.presentation h1 , #Luis , .formation_graphic_designer ol  li::before , .exp_graphic_designer ol  li::before { color : #FFB300; } 
+.presentation h1 , #Luis , .formation_graphic_designer ol  li::before , .exp_graphic_designer ol  li::before , h2 i { color : #FFB300; } 
 
 .presentation , hr { background-color: #FFB300;}
 
 main h2 , .presentation { color : black; }
 
-.presentation a , main { color : #666666; }
+.presentation a , main , #loisir i { color : #666666; }
 
 main , #photo_luis {margin-top: 30px;}   /* Marge du haut */
 
@@ -38,6 +38,7 @@ hr {
     text-align: justify;
     display: flex;
     flex-direction: column;
+    min-width: 250px;
 
 }
 
@@ -79,12 +80,13 @@ hr {
 }
 
 
-#loisir img {
-    margin-top : 10px; 
-    margin-right : 20px;
-    border-radius: 100%;
-    border: 1px solid #666666;
-    padding : 5px;
+#loisir i {
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 40px;
+    border : 1px solid #666666;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 
@@ -96,7 +98,9 @@ main {
 
 
 
-h2 img {  margin-right : 20px; }
+h2 i {  
+    margin-right : 20px;
+    font-size: 40px ; }
 
 /*Header */
 
@@ -154,7 +158,7 @@ header h1 {
 
 /* Responsive Design : Tablette et petit ecran ordinateur */
 
-    @media all and (max-width : 1400px)
+    @media all and (max-width : 1100px)
     {
         .titre {  background-color: #FFB300; }
 
