@@ -4,7 +4,7 @@ body { margin : 0; }
 
 .presentation h1 , #Luis , .formation_graphic_designer ul  li::before , .exp_graphic_designer ul  li::before { color : #FFB300; } 
 
-.presentation , .transition { background-color: #FFB300;}
+.presentation , hr { background-color: #FFB300;}
 
 .corps h2 , .presentation { color : black; }
 
@@ -126,9 +126,12 @@ header h1 {
 
 .recommandation_1 { margin-right : 50%;  }
 
-.transition {
+hr {
     height : 2px;
     margin-bottom: 20px;
+    border : none;
+
+
  }
 
 
