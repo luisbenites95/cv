@@ -131,7 +131,7 @@ header h1 {
 .formation h3 , .experience_pro h3 { margin-top: 0;}
 .formation li , .experience_pro li { vertical-align: top;}
 .premier {  list-style-image: url("circle.svg"); }
-.date , .premier { width : 30%; }
+.date , .premier { width : 30%; margin-right: 30px; }
 
 
 .explication {
