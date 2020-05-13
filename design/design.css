@@ -1,20 +1,32 @@
-body { margin : 0; }
+/* General */
 
-.site_entier { display : flex; }
+body { margin : 0; display: flex;}
 
-.presentation h1 , #Luis , .formation_graphic_designer ul  li::before , .exp_graphic_designer ul  li::before { color : #FFB300; } 
+
+.presentation h1 , #Luis , .formation_graphic_designer ol  li::before , .exp_graphic_designer ol  li::before { color : #FFB300; } 
 
 .presentation , hr { background-color: #FFB300;}
 
-.corps h2 , .presentation { color : black; }
+main h2 , .presentation { color : black; }
 
-.presentation a , .corps { color : #616161; }
+.presentation a , main { color : #616161; }
 
-.corps , #photo_luis {margin-top: 30px;}   /* Marge du haut */
+main , #photo_luis {margin-top: 30px;}   /* Marge du haut */
 
 #loisir , .recommandation { margin-bottom: 30px; }  /* Marge du bas */
 
-.formation aside , .experience_pro aside , .recommandation_1 , .recommandation_2 , .formation ul , .experience_pro ul { display : inline-block; }
+.recommandation_1 , .recommandation_2   { display : inline-block; }
+
+.formation ol , .experience_pro ol { display: flex;}
+
+
+hr {
+    height : 2px;
+    margin-bottom: 20px;
+    border : none;
+
+
+ }
 
 
 
@@ -78,13 +90,15 @@ body { margin : 0; }
 
 /* Partie Corps du site (partie droite) */
 
-.corps {
+main {
     width : 50%;
     padding-left : 50px;  }
 
 
 
 h2 img {  margin-right : 20px; }
+
+/*Header */
 
 
 #titre_souligne {
@@ -103,36 +117,34 @@ header h1 {
 
 
 
-.formation ul , .experience_pro ul {
-    vertical-align: top;
-    width : 25%;
+/* Formation et Experience Pro */
 
-}
 
-.formation_graphic_designer ul , .exp_graphic_designer ul { list-style-type: none;}
-
-.formation_graphic_designer ul  li::before , .exp_graphic_designer ul  li::before {
+.date { list-style-type: none;}
+ 
+.date::before  {
     content: "\2022";
     margin-right: 10px; }
 
 
-.premier { list-style-image: url("circle.svg"); }
+.formation h3 , .experience_pro h3 { margin-top: 0;}
+.formation li , .experience_pro li { vertical-align: top;}
+.premier {  list-style-image: url("circle.svg"); }
+.date , .premier { width : 30%; }
 
 
-.formation aside , .experience_pro aside {
+.explication {
     width : 70%;
-    text-align: justify; }
+    text-align: justify;
+    list-style-type: none;  }
+
+
+
+
+/* Partie Recommandation */
 
 
 .recommandation_1 { margin-right : 50%;  }
-
-hr {
-    height : 2px;
-    margin-bottom: 20px;
-    border : none;
-
-
- }
 
 
 /* Responsive Design : Tablette et petit ecran ordinateur */
@@ -143,7 +155,7 @@ hr {
 
         .titre h1 { color : #616161; }
         
-        .site_entier {flex-direction: column-reverse;  }
+        body {flex-direction: column-reverse;  }
 
         .presentation { 
             flex-direction: row;
@@ -166,7 +178,7 @@ hr {
 
         .presentation, .formation aside , .experience_pro aside, .formation ul , .experience_pro ul { width : 100%;}
 
-        .corps { width : 90%;  padding-left: 10px; }
+        main { width : 90%;  padding-left: 10px; }
 
         h2 { text-align: center;}
 
@@ -183,7 +195,7 @@ hr {
 
     @media all and (max-width : 700px)
     {
-        .site_entier {flex-direction: column;  }
+        body {flex-direction: column;  }
 
         .titre { background-color: #616161;}
         .titre h1 { color: #FFB300;}
@@ -199,7 +211,7 @@ hr {
 
         .presentation, .formation aside , .experience_pro aside, .formation ul , .experience_pro ul { width : 100%;}
 
-        .corps { width : 80%;  padding-left: 10px; }
+        main { width : 80%;  padding-left: 10px; }
 
         h2 { text-align: center;}
 
