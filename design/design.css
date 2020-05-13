@@ -1,6 +1,6 @@
 /* General */
 
-body { margin : 0; display: flex;}
+body { margin : 0; display: flex; background-color: aliceblue;}
 
 
 .presentation h1 , #Luis , .formation_graphic_designer ol  li::before , .exp_graphic_designer ol  li::before { color : #FFB300; } 
@@ -9,7 +9,7 @@ body { margin : 0; display: flex;}
 
 main h2 , .presentation { color : black; }
 
-.presentation a , main { color : #616161; }
+.presentation a , main { color : #666666; }
 
 main , #photo_luis {margin-top: 30px;}   /* Marge du haut */
 
@@ -53,7 +53,7 @@ hr {
 
 .titre {
     height : 50px;
-    background-color: #616161;
+    background-color: #666666;
 }
 
 .titre h1 {
@@ -83,7 +83,7 @@ hr {
     margin-top : 10px; 
     margin-right : 20px;
     border-radius: 100%;
-    border: 1px solid #616161;
+    border: 1px solid #666666;
     padding : 5px;
 }
 
@@ -144,7 +144,12 @@ header h1 {
 /* Partie Recommandation */
 
 
-.recommandation_1 { margin-right : 50%;  }
+.recommandation ul { 
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
 
 
 /* Responsive Design : Tablette et petit ecran ordinateur */
@@ -153,13 +158,13 @@ header h1 {
     {
         .titre {  background-color: #FFB300; }
 
-        .titre h1 { color : #616161; }
+        .titre h1 { color : #666666; }
         
         body {flex-direction: column-reverse;  }
 
         .presentation { 
             flex-direction: row;
-            border-top : 1px solid #616161;
+            border-top : 1px solid #666666;
             flex-wrap: wrap;
             justify-content: space-around; }
 
@@ -176,7 +181,7 @@ header h1 {
         #photo_luis { order : 3; align-self: flex-start;}
 
 
-        .presentation, .formation aside , .experience_pro aside, .formation ul , .experience_pro ul { width : 100%;}
+        .presentation  { width : 100%;}
 
         main { width : 90%;  padding-left: 10px; }
 
@@ -186,7 +191,6 @@ header h1 {
          
         h3 { text-decoration: underline; color : #FFB300;  }
 
-        .recommandation_1 { margin-right: 10%; }
 
     }
 
@@ -197,7 +201,7 @@ header h1 {
     {
         body {flex-direction: column;  }
 
-        .titre { background-color: #616161;}
+        .titre { background-color: #666666;}
         .titre h1 { color: #FFB300;}
 
         .presentation {
@@ -209,7 +213,7 @@ header h1 {
         #a_propos { order : 3; width: 100%;}
         #loisir { order : 4; width: 100%;}
 
-        .presentation, .formation aside , .experience_pro aside, .formation ul , .experience_pro ul { width : 100%;}
+        .presentation  { width : 100%;}
 
         main { width : 80%;  padding-left: 10px; }
 
@@ -218,5 +222,9 @@ header h1 {
         header h2 { text-align: left;}
          
         h3 { text-decoration: underline; color : #FFB300;  }
+
+        .recommandation ul {flex-direction: column; }
+        .recommandation li { margin-bottom: 10px;}
+
 
     }
