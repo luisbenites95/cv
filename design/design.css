@@ -28,6 +28,7 @@ hr {
 
  }
 
+ address { font-style: normal; }
 
 
 /* Partie Presentation (partie gauche) */
@@ -38,7 +39,7 @@ hr {
     text-align: justify;
     display: flex;
     flex-direction: column;
-    min-width: 250px;
+    min-width: 270px;
 
 }
 
@@ -49,7 +50,7 @@ hr {
     height : 200px;
     overflow: hidden;
     border-radius: 50%;
-
+    border: 2px solid #B5AE4F;
 }
 
 .presentation h1 {
@@ -176,7 +177,7 @@ header h1 {
 
         #a_propos { width : 60%; order: 2;}
 
-        #photo_luis { order : 3; align-self: flex-start;}
+        #photo_luis { order : 3; align-self: flex-start; margin-bottom: 5px; }
 
 
         .presentation  { width : 100%;}
@@ -212,13 +213,14 @@ header h1 {
 
         .presentation  { width : 100%;}
 
-        main { width : 80%;  padding-left: 10px; }
+        main { width : 80%;  padding-left: 2px; }
 
         h2 { text-align: center;}
 
         header h2 { text-align: left;}
          
         h3 { text-decoration: underline; color : #FFB300;  }
+
         .recommandation ul {flex-direction: column; }
         .recommandation li { margin-bottom: 10px;}
 
