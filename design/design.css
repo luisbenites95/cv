@@ -39,7 +39,7 @@ hr {
     text-align: justify;
     display: flex;
     flex-direction: column;
-    min-width: 270px;
+    min-width: 290px;
 
 }
 
@@ -149,11 +149,12 @@ header h1 {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    margin-right: 1px;
 }
 
 
 
-/* Responsive Design : Tablette et petit ecran ordinateur */
+/* Responsive Design : Tablette */
 
     @media all and (max-width : 1100px)
     {
