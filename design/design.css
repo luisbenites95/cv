@@ -3,7 +3,7 @@
 body { margin : 0; display: flex; background-color: aliceblue;}
 
 
-.presentation h1 , #Luis , .formation_graphic_designer ol  li::before , .exp_graphic_designer ol  li::before , h2 i { color : #FFB300; } 
+.presentation h1 , #Luis , .formation_graphic_designer  li::before , .exp_graphic_designer   li::before , h2 i { color : #FFB300; } 
 
 .presentation , hr { background-color: #FFB300;}
 
@@ -134,7 +134,7 @@ header h1 {
 
 
 .explication {
-    width : 70%;
+    width : 90%;
     list-style-type: none; }
 
 .explication p { text-align: justify;}
@@ -214,7 +214,7 @@ header h1 {
 
         .presentation  { width : 100%;}
 
-        main { width : 80%;  padding-left: 2px; }
+        main { width : 95%;  padding-left: 2px; }
 
         h2 { text-align: center;}
 
@@ -224,6 +224,11 @@ header h1 {
 
         .recommandation ul {flex-direction: column; }
         .recommandation li { margin-bottom: 10px;}
+
+        .formation ol , .experience_pro ol { flex-direction: column;}
+
+        .date , .premier { width: 90%;}
+
 
 
     }
