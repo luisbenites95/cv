@@ -75,14 +75,16 @@ hr {
 
 }
 
-
 #photo_luis {
     align-self: center;
+}
+
+#photo_luis img {
     width : 200px;
     height : 200px;
-    overflow: hidden;
     border-radius: 50%;
     border: 2px solid #B5AE4F;
+
 }
 
 .presentation h1 {
