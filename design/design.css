@@ -7,7 +7,7 @@ body {
 }
 
 
-.presentation h1 , 
+.presentation h2 , 
 #Luis , 
 .formation_graphic_designer  li::before , 
 .exp_graphic_designer   li::before , 
@@ -20,7 +20,8 @@ hr {
     background-color: #FFB300;
 }
 
-main h2 , 
+header h1 ,
+article h2, 
 .presentation { 
     color : black; 
 }
@@ -87,7 +88,7 @@ hr {
 
 }
 
-.presentation h1 {
+.presentation h2 {
     background-color: #666666;
     text-align : center;
     padding-top : 7px;
@@ -163,7 +164,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
-header h1 {
+header h2 {
     font-size : 70px; 
     margin-bottom : 0px; }
 
