@@ -110,19 +110,26 @@ hr {
      padding-right : 40px;
  }
 
-#loisir {
-    margin-top: auto;
-    text-align: center;
+
+ #loisir {
+     margin-top: auto;
+ }
+
+ #icone_loisir { 
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
 }
 
 
 #loisir i {
-    margin-top: 10px;
-    margin-right: 5px;
     font-size: 40px;
     border : 1px solid #666666;
-    padding: 10px;
     border-radius: 50%;
+    width : 5rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
 }
 
 
