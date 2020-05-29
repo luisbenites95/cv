@@ -1,34 +1,66 @@
 /* General */
 
-body { margin : 0; display: flex; background-color: aliceblue;}
+body { 
+    margin : 0; 
+    display: flex; 
+    background-color: aliceblue;
+}
 
 
-.presentation h1 , #Luis , .formation_graphic_designer  li::before , .exp_graphic_designer   li::before , h2 i { color : #FFB300; } 
+.presentation h1 , 
+#Luis , 
+.formation_graphic_designer  li::before , 
+.exp_graphic_designer   li::before , 
+h2 i { 
+    color : #FFB300; 
+} 
 
-.presentation , hr { background-color: #FFB300;}
+.presentation , 
+hr { 
+    background-color: #FFB300;
+}
 
-main h2 , .presentation { color : black; }
+main h2 , 
+.presentation { 
+    color : black; 
+}
 
-.presentation a , main , #loisir i { color : #666666; }
+.presentation a , 
+main , 
+#loisir i { 
+    color : #666666; 
+}
 
-main , #photo_luis {margin-top: 30px;}   /* Marge du haut */
+main , 
+#photo_luis {
+    margin-top: 30px;
+}   /* Marge du haut */
 
-#loisir , .recommandation { margin-bottom: 30px; }  /* Marge du bas */
+#loisir , 
+.recommandation { 
+    margin-bottom: 30px; 
+}  /* Marge du bas */
 
-.recommandation_1 , .recommandation_2   { display : inline-block; }
+.recommandation_1 , 
+.recommandation_2   { 
+    display : inline-block; 
+}
 
-.formation ol , .experience_pro ol { display: flex;}
+.formation ol , 
+.experience_pro ol { 
+    display: flex;
+}
 
 
 hr {
     height : 2px;
     margin-bottom: 20px;
     border : none;
+}
 
-
- }
-
- address { font-style: normal; }
+ address { 
+     font-style: normal; 
+}
 
 
 /* Partie Presentation (partie gauche) */
@@ -61,11 +93,17 @@ hr {
 }
 
 
-.presentation ul { list-style-type: none; }
+.presentation ul { 
+    list-style-type: none; 
+}
 
-.presentation li { margin-bottom : 20px;}
+.presentation li { 
+    margin-bottom : 20px;
+}
 
-.presentation a {  text-decoration: none; }
+.presentation a {  
+    text-decoration: none; 
+}
 
  .presentation p {
      padding-left : 40px;
@@ -92,11 +130,14 @@ hr {
 
 main {
     width : 50%;
-    padding-left : 50px;  }
+    padding-left : 50px; 
+}
 
 
 
-h2 i {  font-size: 40px ; }
+h2 i {  
+    font-size: 40px ; 
+}
 
 /*Header */
 
@@ -120,24 +161,45 @@ header h1 {
 /* Formation et Experience Pro */
 
 
-.date { list-style-type: none;}
+.date { 
+    list-style-type: none;
+}
  
 .date::before  {
     content: "\2022";
-    margin-right: 10px; }
+    margin-right: 10px; 
+}
 
 
-.formation h3 , .experience_pro h3 { margin-top: 0;}
-.formation li , .experience_pro li { vertical-align: top;}
-.premier {  list-style-image: url("circle.svg"); }
-.date , .premier { width : 30%; margin-right: 30px; }
+.formation h3 , 
+.experience_pro h3 { 
+    margin-top: 0;
+}
+
+.formation li , 
+.experience_pro li { 
+    vertical-align: top;
+}
+
+.premier {  
+    list-style-image: url("circle.svg"); 
+}
+
+.date , 
+.premier { 
+    width : 30%; 
+    margin-right: 30px;
+}
 
 
 .explication {
     width : 90%;
-    list-style-type: none; }
+    list-style-type: none; 
+}
 
-.explication p { text-align: justify;}
+.explication p { 
+    text-align: justify;
+}
 
 
 
@@ -158,38 +220,66 @@ header h1 {
 
     @media all and (max-width : 1100px)
     {
-        .presentation h1 {  background-color: #FFB300; color : #666666; }
+        .presentation h1 {  
+            background-color: #FFB300; 
+            color : #666666; 
+        }
         
-        body {flex-direction: column-reverse;  }
+        body {
+            flex-direction: column-reverse;
+        }
 
         .presentation { 
             flex-direction: row;
             border-top : 1px solid #666666;
             flex-wrap: wrap;
-            justify-content: space-around; }
+            justify-content: space-around; 
+        }
 
-        #contact { order : 1;}
+        #contact { 
+        order : 1;
+        }
 
         #loisir { 
             margin-top: 0; 
             width : 50%;
-            order : 4;  }
+            order : 4; 
+        }
 
 
-        #a_propos { width : 60%; order: 2;}
+        #a_propos { 
+        width : 60%; 
+        order: 2;
+        }
 
-        #photo_luis { order : 3; align-self: flex-start; margin-bottom: 5px; }
+        #photo_luis { 
+            order : 3; 
+            align-self: flex-start; 
+            margin-bottom: 5px; 
+        }
 
 
-        .presentation  { width : 100%;}
+        .presentation  { 
+            width : 100%;
+        }
 
-        main { width : 90%;  padding-left: 10px; }
+        main { 
+            width : 90%;  
+            padding-left: 10px; 
+        }
 
-        h2 { text-align: center;}
+        h2 { 
+            text-align: center;
+        }
 
-        header h2 { text-align: left;}
+        header h2 { 
+            text-align: left;
+        }
          
-        h3 { text-decoration: underline; color : #FFB300;  }
+        h3 { 
+            text-decoration: underline; 
+            color : #FFB300;  
+        }
 
 
     }
@@ -199,36 +289,77 @@ header h1 {
 
     @media all and (max-width : 700px)
     {
-        body {flex-direction: column;  }
+        body {
+            flex-direction: column; 
+        }
 
-        .presentation h1 { background-color: #666666;  color: #FFB300;}
+        .presentation h1 { 
+            background-color: #666666;  
+            color: #FFB300;
+        }
 
         .presentation {
         flex-direction: column;
-        border-top : none;}
+        border-top : none;
+        }
 
-        #photo_luis { order : 1; align-self: center;}
-        #contact { order : 2;}
-        #a_propos { order : 3; width: 100%;}
-        #loisir { order : 4; width: 100%;}
+        #photo_luis { 
+            order : 1; 
+            align-self: center;
+        }
 
-        .presentation  { width : 100%;}
+        #contact { 
+            order : 2;
+        }
 
-        main { width : 95%;  padding-left: 2px; }
+        #a_propos { 
+            order : 3; 
+            width: 100%;
+        }
 
-        h2 { text-align: center;}
+        #loisir { 
+            order : 4; 
+            width: 100%;
+        }
 
-        header h2 { text-align: left;}
+        .presentation  { 
+            width : 100%;
+        }
+
+        main { 
+            width : 95%; 
+            padding-left: 2px;
+        }
+
+        h2 { 
+            text-align: center;
+        }
+
+        header h2 { 
+        text-align: left;
+        }
          
-        h3 { text-decoration: underline; color : #FFB300;  }
+        h3 { 
+            text-decoration: underline; 
+            color : #FFB300; 
+        }
 
-        .recommandation ul {flex-direction: column; }
-        .recommandation li { margin-bottom: 10px;}
+        .recommandation ul {
+            flex-direction: column; 
+        }
 
-        .formation ol , .experience_pro ol { flex-direction: column;}
+        .recommandation li { 
+            margin-bottom: 10px;
+        }
 
-        .date , .premier { width: 90%;}
+        .formation ol , 
+        .experience_pro ol { 
+            flex-direction: column;
+        }
 
-
+        .date , 
+        .premier { 
+            width: 90%;
+        }
 
     }
